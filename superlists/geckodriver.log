@@ -4,3 +4,17 @@
 1479058079792	geckodriver::marionette	INFO	Connecting to Marionette on localhost:45923
 1479058081053	Marionette	INFO	Listening on port 45923
 1479058083748	Marionette	INFO	startBrowser e1be1233-c25a-44d8-8e9a-b71b966cc4e7
+1479058485535	geckodriver	INFO	Listening on 127.0.0.1:55863
+1479058486534	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.G6UrqzMqyCrI
+1479058486536	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1479058486543	geckodriver::marionette	INFO	Connecting to Marionette on localhost:40197
+1479058487640	Marionette	INFO	Listening on port 40197
+1479058490426	Marionette	INFO	startBrowser d9609118-8fae-4b78-90a0-7473097163ca
+1479058737566	geckodriver	INFO	Listening on 127.0.0.1:51311
+1479058738566	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.YvCNS2nMdypz
+1479058738568	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1479058738573	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37720
+1479058739700	Marionette	INFO	Listening on port 37720
+1479058742481	Marionette	INFO	startBrowser 841fb9af-94e7-4202-b7be-90d816ff1e21
+[Child 4180] ###!!! ABORT: Aborting on channel error.: file /build/firefox-3wLmb4/firefox-49.0.2+build2/ipc/glue/MessageChannel.cpp, line 2052
+[Child 4180] ###!!! ABORT: Aborting on channel error.: file /build/firefox-3wLmb4/firefox-49.0.2+build2/ipc/glue/MessageChannel.cpp, line 2052
