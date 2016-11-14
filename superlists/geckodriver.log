@@ -209,3 +209,31 @@
 [Child 5489] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-3wLmb4/firefox-49.0.2+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 316
 [Child 5489] ###!!! ABORT: Aborting on channel error.: file /build/firefox-3wLmb4/firefox-49.0.2+build2/ipc/glue/MessageChannel.cpp, line 2052
 [Child 5489] ###!!! ABORT: Aborting on channel error.: file /build/firefox-3wLmb4/firefox-49.0.2+build2/ipc/glue/MessageChannel.cpp, line 2052
+1479150105584	geckodriver	INFO	Listening on 127.0.0.1:33279
+1479150106592	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.mxkczxZwbbxZ
+1479150106593	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1479150106597	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34527
+1479150107638	Marionette	INFO	Listening on port 34527
+1479150110330	Marionette	INFO	startBrowser 57cc5b21-7eb1-4833-984e-320c5a595a0e
+
+(firefox:5552): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:5552): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:5552): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+[Child 5618] ###!!! ABORT: Aborting on channel error.: file /build/firefox-3wLmb4/firefox-49.0.2+build2/ipc/glue/MessageChannel.cpp, line 2052
+[Child 5618] ###!!! ABORT: Aborting on channel error.: file /build/firefox-3wLmb4/firefox-49.0.2+build2/ipc/glue/MessageChannel.cpp, line 2052
+1479150229898	geckodriver	INFO	Listening on 127.0.0.1:34772
+1479150230901	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.kjCxXaHqSWbF
+1479150230902	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1479150230906	geckodriver::marionette	INFO	Connecting to Marionette on localhost:43810
+1479150232027	Marionette	INFO	Listening on port 43810
+1479150234728	Marionette	INFO	startBrowser 3ea2b553-e5b3-47e1-a59f-a6d5cd003ee9
+
+(firefox:5733): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:5733): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:5733): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+[Child 5802] ###!!! ABORT: Aborting on channel error.: file /build/firefox-3wLmb4/firefox-49.0.2+build2/ipc/glue/MessageChannel.cpp, line 2052
+[Child 5802] ###!!! ABORT: Aborting on channel error.: file /build/firefox-3wLmb4/firefox-49.0.2+build2/ipc/glue/MessageChannel.cpp, line 2052
