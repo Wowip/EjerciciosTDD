@@ -694,3 +694,18 @@ Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with rea
 
 ###!!! [Child][MessageChannel] Error: (msgtype=0xFA0005,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
 
+1479231042800	geckodriver	INFO	Listening on 127.0.0.1:51810
+1479231043805	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.JobqdMg7oD2r
+1479231043808	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1479231043818	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41049
+1479231044920	Marionette	INFO	Listening on port 41049
+1479231047501	Marionette	INFO	startBrowser 43b826f8-91d7-4ab0-b6e7-babf80001790
+
+(firefox:21710): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:21710): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:21710): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+[Child 21777] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-3wLmb4/firefox-49.0.2+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 316
+[Child 21777] ###!!! ABORT: Aborting on channel error.: file /build/firefox-3wLmb4/firefox-49.0.2+build2/ipc/glue/MessageChannel.cpp, line 2052
+[Child 21777] ###!!! ABORT: Aborting on channel error.: file /build/firefox-3wLmb4/firefox-49.0.2+build2/ipc/glue/MessageChannel.cpp, line 2052
