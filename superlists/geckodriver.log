@@ -535,3 +535,26 @@ Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with rea
 
 ###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
 
+1479228431272	geckodriver	INFO	Listening on 127.0.0.1:54484
+1479228432229	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.Lp6jWMFshXaz
+1479228432231	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1479228432248	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36071
+1479228433699	Marionette	INFO	Listening on port 36071
+1479228436700	Marionette	INFO	startBrowser 5de5c1ef-5246-4882-bb08-c4ba6a81f731
+
+(firefox:19712): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:19712): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:19712): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+[Child 19779] ###!!! ABORT: Aborting on channel error.: file /build/firefox-3wLmb4/firefox-49.0.2+build2/ipc/glue/MessageChannel.cpp, line 2052
+[Child 19779] ###!!! ABORT: Aborting on channel error.: file /build/firefox-3wLmb4/firefox-49.0.2+build2/ipc/glue/MessageChannel.cpp, line 2052
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFA0005,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
