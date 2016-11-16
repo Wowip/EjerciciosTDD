@@ -3,7 +3,7 @@ python:
   - "3.5"
 
 install:
- - apt-get install python3-setuptools
- - easy_install3 pip
+ - sudo apt-get install python3-setuptools
+ - sudo easy_install3 pip
  - pip3 install 'django<1.9'
  - pip3 install selenium==2.33
