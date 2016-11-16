@@ -4,6 +4,7 @@ from selenium.webdriver.common.keys import Keys
 import unittest
 import time
 
+
 class NewVisitorTest(LiveServerTestCase):
 
     def setUp(self):
