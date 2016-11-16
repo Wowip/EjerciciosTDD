@@ -23,6 +23,9 @@ class NewVisitorTest(LiveServerTestCase):
         # to check out its homepage
         self.browser.get(self.live_server_url)
 
+        # She visits that URL - her to-do list is still there.
+
+        # Satisfied, she goes back to sleep
         # She notices the page title and header mention to-do lists
         self.assertIn('To-Do', self.browser.title)
         header_text = self.browser.find_element_by_tag_name('h1').text
@@ -53,11 +56,9 @@ class NewVisitorTest(LiveServerTestCase):
 	# The page updates again, and now shows both items on her list
         self.check_for_row_in_list_table('1: Buy peacock feathers')
         self.check_for_row_in_list_table('2: Use peacock feathers to make a fly')
+        
 
-
-
-
-	# Now a new user, Francis, comes along to the site.
+        # Now a new user, Francis, comes along to the site.
 
         ## We use a new browser session to make sure that no information
         ## of Edith's is coming through from cookies etc  
@@ -88,18 +89,5 @@ class NewVisitorTest(LiveServerTestCase):
         self.assertIn('Buy milk', page_text)
 
         # Satisfied, they both go back to sleep
-
-
-
-	
-
-	# Edith wonders whether the site will remember her list. Then she sees
-        # that the site has generated a unique URL for her -- there is some
-        # explanatory text to that effect.
-        self.fail('Finish the test!')
-
-        # She visits that URL - her to-do list is still there.
-
-        # Satisfied, she goes back to sleep
 
 
