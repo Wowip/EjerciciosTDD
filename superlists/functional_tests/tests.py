@@ -3,11 +3,15 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import unittest
 import time
+from pyvirtualdisplay import Display
+from selenium import webdriver
 
 class NewVisitorTest(LiveServerTestCase):
 
     def setUp(self):
-        self.browser = webdriver.Firefox()
+        display = Display(visible=0, size=(1024, 768))
+        display.start()
+	self.browser = webdriver.Firefox()
         self.browser.implicitly_wait(3)
 
     def tearDown(self):
