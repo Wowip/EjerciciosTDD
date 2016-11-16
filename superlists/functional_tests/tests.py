@@ -101,8 +101,5 @@ class NewVisitorTest(LiveServerTestCase):
             inputbox.location['x'] + inputbox.size['width'] / 2,
             512,
             delta=5
-        )
-
-      
-        
+        )       
         
