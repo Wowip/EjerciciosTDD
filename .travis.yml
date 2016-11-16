@@ -1,0 +1,14 @@
+language: python
+python:
+  - "3.5"
+
+install:
+ - sudo apt-get install python3-setuptools
+ - sudo easy_install3 pip
+ - pip3 install 'django<1.9'
+ - pip3 install selenium==2.33
+
+script:
+ - cd superlists
+ - python3 manage.py test lists
+ - python3 manage.py test functional_tests
