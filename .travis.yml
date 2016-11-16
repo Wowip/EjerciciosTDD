@@ -5,4 +5,5 @@ python:
 install:
  - sudo apt-get install python3-setuptools
  - sudo easy_install3 pip
- - pip3 uninstall selenium
+ - sudo pip3 install 'django<1.9'
+ - pip install selenium==2.33
